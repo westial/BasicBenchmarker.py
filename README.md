@@ -25,7 +25,7 @@ Usage
 
 Example of use with usage and memory in KB flag options enabled:
 
-'''
+```
     >>> # Initializes object, set the usage and the memory in KB flag options
     >>> benchmarker = BasicBenchmarker(usage=True, memory_kb=True)
     
@@ -53,7 +53,7 @@ Example of use with usage and memory in KB flag options enabled:
         Elapsed time 10.01 seconds
         CPU Usage 4.9 %
         Memory Usage 2353964 KB
-'''
+```
     
     
 Credits

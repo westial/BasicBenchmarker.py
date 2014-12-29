@@ -1,7 +1,7 @@
 BasicBenchmarker.py
 ===================
 
-Python class to benchmark pieces of code by timer and resources usage.
+Python class to capture timing and resources usage of pieces of code.
 
 
 Description

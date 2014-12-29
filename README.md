@@ -59,15 +59,15 @@ Example of use with usage and memory in KB flag options enabled:
 Credits
 -------
 
-Jaume Mila Bea <jaume@westial.com>
-Project home: https://github.com/westial/BasicBenchmarker.py
+* Jaume Mila Bea <jaume@westial.com>
+* Project home: https://github.com/westial/BasicBenchmarker.py
 
 
 Requirements
 ------------
 
-Python 2.7.3
-psutil 2.1.3
+* Python 2.7.3
+* psutil 2.1.3
 
 
 License

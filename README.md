@@ -26,33 +26,33 @@ Usage
 Example of use with usage and memory in KB flag options enabled:
 
 ```
-    >>> # Initializes object, set the usage and the memory in KB flag options
-    >>> benchmarker = BasicBenchmarker(usage=True, memory_kb=True)
+>>> # Initializes object, set the usage and the memory in KB flag options
+>>> benchmarker = BasicBenchmarker(usage=True, memory_kb=True)
     
-    >>> # Starts timer and usage if enabled
-    >>> benchmarker.start()
+>>> # Starts timer and usage if enabled
+>>> benchmarker.start()
     
-    >>> # Put the piece of code to benchmark here
-    >>> time.sleep(10)      # replace by your piece of code
+>>> # Put the piece of code to benchmark here
+>>> time.sleep(10)      # replace by your piece of code
     
-    >>> # Stops timer and usage thread if enabled
-    >>> benchmarker.stop()
+>>> # Stops timer and usage thread if enabled
+>>> benchmarker.stop()
     
-    >>> # Gets key pairs with the relevant information
-    >>> results = benchmarker.report()
+>>> # Gets key pairs with the relevant information
+>>> results = benchmarker.report()
     
-        {'cpu_usage': 4.9, 'memory_usage': 2353964,
-        'started_time': '2014-12-29T21:13:03.170977',
-        'cpu_seconds': 0.01451, 'elapsed_seconds': 10.01,
-        'stopped_time': '2014-12-29T21:13:13.181304'}
+    {'cpu_usage': 4.9, 'memory_usage': 2353964,
+    'started_time': '2014-12-29T21:13:03.170977',
+    'cpu_seconds': 0.01451, 'elapsed_seconds': 10.01,
+    'stopped_time': '2014-12-29T21:13:13.181304'}
     
-    >>> # Prints the relevant information
-    >>> print benchmarker.report_to_str()
+>>> # Prints the relevant information
+>>> print benchmarker.report_to_str()
     
-        Processing time 0.01 seconds
-        Elapsed time 10.01 seconds
-        CPU Usage 4.9 %
-        Memory Usage 2353964 KB
+    Processing time 0.01 seconds
+    Elapsed time 10.01 seconds
+    CPU Usage 4.9 %
+    Memory Usage 2353964 KB
 ```
     
     
